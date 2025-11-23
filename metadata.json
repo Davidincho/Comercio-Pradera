@@ -1,0 +1,7 @@
+{
+  "name": "Pradera Conectada",
+  "description": "La plataforma oficial para conectar comercios, servicios, lugares y eventos del municipio de Pradera, Valle del Cauca.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
