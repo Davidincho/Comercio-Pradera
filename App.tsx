@@ -9,6 +9,7 @@ import { BusinessDetail } from './pages/BusinessDetail';
 import { Login } from './pages/Login';
 import { AdminDashboard } from './pages/AdminDashboard';
 import { UserRole } from './types';
+import CommerceManager from './pages/CommerceManager';
 
 function App() {
   // Simulate auth state
@@ -22,6 +23,7 @@ function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/admin/comercios" element={<CommerceManager />} />
             <Route path="/explore" element={<Explore />} />
             <Route path="/events" element={<Events />} />
             <Route path="/business/:id" element={<BusinessDetail />} />
