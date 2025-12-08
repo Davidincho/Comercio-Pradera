@@ -10,6 +10,7 @@ import { Login } from './pages/Login';
 import { AdminDashboard } from './pages/AdminDashboard';
 import { UserRole } from './types';
 import CommerceManager from './pages/CommerceManager';
+import BusinessRegistration from './pages/BusinessRegistration';
 
 function App() {
   // Simulate auth state
@@ -27,6 +28,7 @@ function App() {
             <Route path="/explore" element={<Explore />} />
             <Route path="/events" element={<Events />} />
             <Route path="/business/:id" element={<BusinessDetail />} />
+            <Route path="/registro-comercio" element={<BusinessRegistration />} />
             <Route 
               path="/login" 
               element={
